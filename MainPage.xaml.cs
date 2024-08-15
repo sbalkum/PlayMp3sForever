@@ -70,7 +70,8 @@ namespace PlayMp3sForever
 
         public void SetMedia()
         {
-            var i = Random.Shared.Next(0, _mp3Urls.Count);
+            // Just test with one URL repeatedly for now.
+            var i = 0; // Random.Shared.Next(0, _mp3Urls.Count);
             var url = _mp3Urls[i];
             Debug.WriteLine("Setting media: " + url);
 

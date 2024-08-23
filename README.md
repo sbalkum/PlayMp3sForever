@@ -1,4 +1,8 @@
-﻿# Problem playing audio from the internet using .Net MAUI's MediaElement on Android after screen lock
+﻿# UPDATE - Issue Resolved
+
+This issue has been fixed in MediaElement v4.1.0. It was actually fixed in the main branch about a week before I ran into it.
+
+# Problem playing audio from the internet using .Net MAUI's MediaElement on Android after screen lock
 
 I'm having trouble playing internet hosted mp3 files on an Android device after the screen locks. After a few songs, MediaElement fails to play the next song, apparently with an UnknownHostException from ExoPlayer. 
 
